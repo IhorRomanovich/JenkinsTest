@@ -13,7 +13,7 @@ timestamps()
 stages {
 stage("First step") {
 steps {
-sh 'ssh root@CPC \'hostname\''
+sh 'ssh root@CPC \'wall \"I live again\" \''
 }
 } 
 }
