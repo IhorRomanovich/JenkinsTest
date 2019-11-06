@@ -13,7 +13,7 @@ timestamps()
 stages {
 stage("First step") {
 steps {
-sh 'ssh root@CPC \'wall \"I live again\" \''
+sh 'python3.6 ./HWrld!.py'
 }
 } 
 }
